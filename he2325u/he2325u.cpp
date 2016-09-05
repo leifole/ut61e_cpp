@@ -111,7 +111,8 @@ int main(int argc, char* argv[])
 
 	memset(buf,0x00,sizeof(buf));
 	
-        unsigned int bps = 19200;
+        //unsigned int bps = 19200;
+        unsigned int bps = 2400;
 	// Send a Feature Report to the device
 	buf[0] = 0x0; // report ID
         buf[1] = bps;
