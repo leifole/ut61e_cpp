@@ -127,7 +127,7 @@ int main(int argc, char* argv[])
 
 	memset(buf,0,sizeof(buf));
 
-        printf("-data start-\n");
+//        printf("-data start-\n");
 
         usleep(1000);
 
