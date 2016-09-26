@@ -1,0 +1,5 @@
+use sudo he2325u to readout data from pt3315 multimeter,
+    then pipe it to either pt3315 (cpp) or pt3315.py (python)
+    to parse the data.
+
+    sudo ./he2325u /dev/hidraw3 | ./pt3315
